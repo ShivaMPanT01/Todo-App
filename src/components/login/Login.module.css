@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
+
+.login {
+   margin: 3rem auto;
+   width: 100%;
+   max-width: 30rem;
+   border: 2px solid black;
+   border-radius: 6px;
+   box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+   padding: 2rem 3rem;
+   font-family: "Sedgwick Ave", cursive;
+   background-color: rgb(197, 193, 193);
+}
+
+.login h1 {
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 100;
+   margin-bottom: 2rem;
+}
+
+.control {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+}
+
+.control label {
+   font-size: 1.2rem;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-weight: bold;
+   margin-bottom: 0.5rem;
+}
+
+.control input {
+   border-radius: 4px;
+   border: 1px solid black;
+   width: 100%;
+   text-align: left;
+   color: black;
+   border-radius: 5px;
+   border: 1px solid black;
+   padding: 0.8rem;
+}
+
+.actions {
+   margin-top: 0.8rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.actions button {
+   cursor: pointer;
+   font: inherit;
+   color: white;
+   background-color: #9f5ccc;
+   border: 1px solid #9f5ccc;
+   border-radius: 4px;
+   padding: 0.5rem 2.5rem;
+}
+
+.new-account {
+   margin-top: 1rem;
+   background-color: transparent;
+   color: #9f5ccc;
+   border: none;
+   padding: 0.15rem 1.5rem;
+}
